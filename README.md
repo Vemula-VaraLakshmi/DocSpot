@@ -120,8 +120,14 @@ Also add a `.env` in `frontend/` (optional) if required for URLs.
 
 
 - 🏠 Home Page
+  <img width="1900" height="894" alt="image" src="https://github.com/user-attachments/assets/97991c12-f1cd-4193-8a9a-6e349c3065e6" />
+
 - 👤 User Dashboard
+  <img width="1909" height="860" alt="image" src="https://github.com/user-attachments/assets/7f59882e-22fb-47af-94c2-ebf5c9e274cc" />
+
 - 👨‍⚕️ Doctor Dashboard
+  <img width="1905" height="908" alt="image" src="https://github.com/user-attachments/assets/72d62e25-1c1c-4bb2-b4d2-2988f336d0ab" />
+
 - 🛠️ Admin Panel
 
 ---
