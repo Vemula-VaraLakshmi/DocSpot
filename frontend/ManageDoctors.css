@@ -1,0 +1,11 @@
+/* src/components/admin/ManageDoctors.css */
+.admin-container {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f1f6fb;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.admin-table {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}

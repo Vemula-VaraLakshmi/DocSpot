@@ -1,0 +1,21 @@
+.user-home-wrapper {
+  scroll-behavior: smooth;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f8ff;
+}
+
+.user-home-header {
+  background-image:url("D:\Projects\DocSpot\frontend\public\doc.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+  padding: 60px 20px;
+}
+
+.doctor-card {
+  transition: transform 0.2s ease;
+}
+.doctor-card:hover {
+  transform: translateY(-5px);
+}

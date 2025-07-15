@@ -1,0 +1,94 @@
+/* General Wrapper */
+.home-wrapper {
+  scroll-behavior: smooth;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar Links */
+.navbar .nav-link {
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #0dcaf0;
+}
+
+/* Hero Section */
+.custom-hero {
+  background: #bde0fe;
+  clip-path: ellipse(140% 100% at 50% 0%);
+  overflow: hidden;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.text-accent {
+  color: #1a237e;
+}
+
+.hero-image img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.btn-lg:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* About Section */
+#about {
+  background: linear-gradient(to right, #4b6cb7, #182848);
+  color: white;
+  padding: 80px 20px;
+  min-height: 90vh;
+}
+
+#about .card {
+  border: none;
+  border-radius: 10px;
+}
+
+/* Contact Section */
+#contact {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  padding: 80px 20px;
+  min-height: 90vh;
+}
+
+#contact .card {
+  border: none;
+  border-radius: 10px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .custom-hero {
+    text-align: center;
+    flex-direction: column;
+    clip-path: ellipse(160% 100% at 50% 0%);
+  }
+
+  .hero-image {
+    margin-top: 2rem;
+  }
+}
